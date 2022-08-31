@@ -53,9 +53,99 @@
     <a href="www.google.com">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PNG_transparency_demonstration_1.png/640px-PNG_transparency_demonstration_1.png" width="100px" alt="imagen whatsap">
     </a>
-    
-
     </article>
+
+    <section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/252t7dAL1hE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37494223.239094906!2d103!3d55!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x453c569a896724fb%3A0x1409fdf86611f613!2sRusia!5e0!3m2!1ses!2scl!4v1661919898406!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!--FORMULARIOS Y ENCAPSULADOS-->
+    <fieldset>
+        <legend>Ingrese sus datos </legend>
+        <form name="formulario" method=" post"action="/send.php">
+            <!--Primer campo de entrada da datos-->
+            
+            <!-- Nombre de usuario :-->
+            <label for="nombre">Nombre</label>
+            <input type = "text" id="nombre" placeholder="nombre" size="50" value=""/>
+            <br>
+            
+            <!-- numerto tel :-->
+            <label for="telefonico">telefono</label>
+            <input type = "tel" id="telefonico"  placeholder="telefono" maxlength="9" value=""/>
+            <br>
+            
+            <!-- direccion url:-->
+            <label for="url">direccion url</label>
+            <input type = "url" id="url" placeholder="url" value=""/>
+            <br>
+            
+            <!-- direcion correo email:-->
+            <label for="email">Direcion correo email</label>
+            <input type = "email" id="email" placeholder="email" value=""/>
+            <br>
+            
+            <!-- contraseña-->
+            <label for="password">contraseña</label>
+            <input type = "password" id="password" placeholder="contraseña" value=""/>
+            <br>
+            <!-- campo oculto:-->
+            <input type = "hidden" placeholder="oculto" value=""/>
+
+            <!-- textoalfanumerico libre-->
+            <!-- Botón de envio del formulario :-->
+            <input type = "submit" placeholder="enviar" value="Enviar"/>
+    </fieldset>  
+       
+
+    </form>
+    <br>
+    <!--casilla o botones-->
+    <section>
+        <fieldset>
+            <legend>Casilla o botones </legend>
+            <form name = "formulario" method ="post" action = " / sand.php " >
+                <!--Botones de opción-->
+            <p>sexo
+
+            <input type = "radio" name="sexo"  value= "hombre" /> hombre <!-- Hombre-->  
+            <input type = "radio" name="sexo" value="mujer" /> mujer <!-- Mujer-->  
+            </p>
+            <p>¿ Eres autónomo / empresa ?
+            <!--Casillas de verificación ( marcada por defecto )-->
+            <input type = "checkbox" name="empresa" value="si"  checked /> si<!--  --> 
+            </p>
+            <!--value es para base de datos-->
+            </form>
+        </fieldset>
+    </section>
+
+    <!--fecha-->
+    <br>
+    <section>
+        <fieldset>
+            <legend>Fecha y hora</legend>
+            <input type = "number" >
+            <br>
+            <input type = "range" >
+            <br>
+            <input type = "date" ><br>
+            <input type = "timg" ><br>
+            <input type = "month"><br>
+            <input type = "week" ><br>
+            <input type = "week" ><br>
+        </fieldset>
+    </section>
+<br>
+    Buqueda
+     <!-- texto para busqueda :-->
+     <input type = "search" placeholder="busqueda" value=""/>
+
+    
 </div>
 
 </body>
