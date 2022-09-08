@@ -1,0 +1,38 @@
+/*cascada*/
+div{
+
+width: 5rem;
+height: 5rem;
+background-color: rgb(32, 134, 134);
+}
+/*especificidad
+/ * Especificidad
+Etiquetas y Pseudoelementos
+Clases , Atributos y Pseudoclases
+Identificadores
+Estilos en Linea
+Timp Le tant
+especificidad
++ /
+                                                8,8,8,1
+                                               -0,0,1,0
+                                                8,1,0,0
+                                                1,0,0,0
+                                               -Rompe la
+
+*/
+.parrafo{
+    background-color: aqua;
+
+}
+/*los # declaran id....los . es para class */
+/*padre hereda*/
+body{
+    color: blue;
+    border:1rem solid #000;
+
+}
+section{
+    color: aquamarine;
+    border:0.5rem solid #000;
+}
